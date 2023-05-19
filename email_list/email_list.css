@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: rgb(229, 228, 228) ;
+    margin: 0 auto;
+    width: 700px;
+    border: 3px solid black ;
+    padding: 0 2em 1em;
+}
+h1 {
+	color: black;
+	margin-bottom: .5em;
+}
+label {
+	float: left;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+    font-size: 0.9em;
+}
