@@ -1,0 +1,68 @@
+:root {
+    --light_color: #FFF79E;
+    --accent_blue: #628CF5;
+    --color-peach: #FFA151;
+    --color-green: #65E092;
+    --color-ligher: #DE4ECD;
+    --tasks_output: #FCFEDB;
+    --image-margin: 1px;
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: var(--light_color);
+    width: 95%;
+    margin: 0 auto;
+    border: 1px dashed var(--accent_blue);
+    padding: 0 2em 1em;
+}
+
+h1 {
+    font-size: 150%;
+    color: black;
+    margin-bottom: .5em;
+}
+
+label {
+    float: left;
+    width: 8em;
+    color:black;
+}
+
+input {
+    width: 20em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+input:hover {
+    --background-color: var(--color-ligher);
+
+}
+
+#tasks {
+    float: right;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px var(--accent_blue);
+    background-color: var(--tasks_output);
+    width: 25em;
+    margin: 0 0 .5em;
+    padding: 1em;
+    border: 2px solid var(--color-green);
+}
+
+#tasks a {
+    margin-right: 0.5em;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0px .1em 0 0;
+
+}
+
+.clear {
+    clear: both;
+}
